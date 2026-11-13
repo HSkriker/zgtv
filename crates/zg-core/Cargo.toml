@@ -1,0 +1,19 @@
+[package]
+name = "zg-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.89"
+description = "zg 数据层：.day/.lc1 读取、前复权、重采样、kcache（与 Python zgcore 逐值等价）"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip", "preserve_order"] }
+chrono = { version = "0.4", features = ["serde"] }
+fs2 = "0.4"
+ureq = { version = "2", features = ["gzip"] }
+
+[dev-dependencies]
+tempfile = "3"
+flate2 = "1"
+sha2 = "0.10"

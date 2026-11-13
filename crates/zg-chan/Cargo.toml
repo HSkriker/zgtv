@@ -1,0 +1,17 @@
+[package]
+name = "zg-chan"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.89"
+description = "zg 缠论层：L1 官方信号（czsc 1.0.2 直链）+ L2/L3 规则层"
+
+[dependencies]
+zg-core = { path = "../zg-core" }
+# L1 判据直链 czsc crate，版本 `=x.y.z` 钉死（工单 P0.5 结论：与 Python czsc 1.0.2 同源）
+czsc-core = "=1.0.2"
+czsc-signals = "=1.0.2"
+czsc-utils = "=1.0.2"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip", "preserve_order"] }
+chrono = { version = "0.4", features = ["serde"] }

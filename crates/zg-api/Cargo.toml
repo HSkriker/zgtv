@@ -1,0 +1,25 @@
+[package]
+name = "zg-api"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.89"
+description = "zg 服务层：8786 主站（对齐 server.py + zgapp/{handler,staticfiles,bootstrap}）"
+
+[dependencies]
+zg-core = { path = "../zg-core" }
+zg-chan = { path = "../zg-chan" }
+zg-market = { path = "../zg-market" }
+serde_json = { version = "1", features = ["float_roundtrip", "preserve_order"] }
+chrono = { version = "0.4", features = ["serde"] }
+hyper = { version = "1", features = ["http1", "server"] }
+hyper-util = { version = "0.1", features = ["tokio", "server"] }
+http-body-util = "0.1"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "macros", "time", "sync"] }
+bytes = "1"
+encoding_rs = "0.8"
+ureq = { version = "2", features = ["gzip"] }
+
+[[bin]]
+name = "zg-api"
+path = "src/main.rs"
