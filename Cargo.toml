@@ -1,0 +1,39 @@
+[workspace]
+# 四个内嵌 crate 挂为成员：zg-market 的金标对表测试（candles_golden）用 -p 才可运行
+members = ["crates/zg-core", "crates/zg-chan", "crates/zg-market", "crates/zg-api"]
+
+# dev/test 档不产出 DWARF：默认 debug=2 时 380 个依赖全带全量调试符号，
+# target/debug 曾膨胀到 23G（deps 21G + incremental 1.1G），2026-11-03 清掉。
+# 本项目的验收链路是 ./run.sh（release 二进制）与 tools/final_check.sh（cargo test --release），
+# dev 档只用于 `cargo check` 快速语法/类型检查，不需要调试符号。
+[profile.dev]
+debug = 0
+incremental = false
+
+# 测试档继承 dev 同样设置（cargo test 不带 --release 时也不落 DWARF）
+[profile.test]
+debug = 0
+incremental = false
+
+[package]
+name = "tv"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+# 内嵌的 zg 四层 crate（2026-11-01 自 gs/zg 整包原样拷贝，包名未改；tv 已完全脱离平级 zg 仓库）
+zg-core = { path = "crates/zg-core" }
+zg-chan = { path = "crates/zg-chan" }
+zg-market = { path = "crates/zg-market" }
+zg-api = { path = "crates/zg-api" }
+# 季线缠论需要 czsc 的 Freq::S（zg-chan 的 freq 表只到 D/W/M/F*，且不改 zg）；与 zg-chan 同版钉死
+czsc-core = "=1.0.2"
+# 指标引擎：与 zg-market 跑蜡烛形态同一份（官方 Rust 端口，纯 Rust，已在 Cargo.lock 与离线 registry）
+ta-lib = "0.8"
+serde_json = { version = "1", features = ["preserve_order"] }
+# Resp.body 用 bytes::Bytes：缓存命中零拷贝（引用计数 +1），静态 304 先判后读
+bytes = "1"
+chrono = "0.4"
+# block_gn.dat 板块名是 GBK；Cargo.lock 已有 encoding_rs 0.8.44（离线 registry 可解）
+encoding_rs = "0.8"

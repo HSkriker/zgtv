@@ -1,0 +1,1485 @@
+{
+  "by_category": {
+    "kline": 222,
+    "trader": 24
+  },
+  "count": 246,
+  "signals": [
+    {
+      "category": "kline",
+      "name": "adtm_up_dw_line_V230603",
+      "namespace": "adtm",
+      "param_template": "{freq}_D{di}N{n}M{m}TH{th}_ADTMV230603"
+    },
+    {
+      "category": "kline",
+      "name": "amv_up_dw_line_V230603",
+      "namespace": "amv",
+      "param_template": "{freq}_D{di}N{n}M{m}_AMV能量V230603"
+    },
+    {
+      "category": "kline",
+      "name": "asi_up_dw_line_V230603",
+      "namespace": "asi",
+      "param_template": "{freq}_D{di}N{n}P{p}_ASI多空V230603"
+    },
+    {
+      "category": "kline",
+      "name": "bar_accelerate_V221110",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{window}_加速V221110"
+    },
+    {
+      "category": "kline",
+      "name": "bar_accelerate_V221118",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{window}#{ma_type}#{timeperiod}_加速V221118"
+    },
+    {
+      "category": "kline",
+      "name": "bar_accelerate_V240428",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{w}T{t}_加速V240428"
+    },
+    {
+      "category": "kline",
+      "name": "bar_amount_acc_V230214",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}N{n}_累计超{t}千万V230214"
+    },
+    {
+      "category": "kline",
+      "name": "bar_big_solid_V230215",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}N{n}_MIDV230215"
+    },
+    {
+      "category": "kline",
+      "name": "bar_bpm_V230227",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}N{n}T{th}_绝对动量V230227"
+    },
+    {
+      "category": "kline",
+      "name": "bar_break_V240428",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{w}_事件V240428"
+    },
+    {
+      "category": "kline",
+      "name": "bar_channel_V230508",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}M{m}_通道V230508"
+    },
+    {
+      "category": "kline",
+      "name": "bar_classify_V240606",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}收盘位置_分类V240606"
+    },
+    {
+      "category": "kline",
+      "name": "bar_classify_V240607",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}K2收盘位置_分类V240607"
+    },
+    {
+      "category": "kline",
+      "name": "bar_decision_V240608",
+      "namespace": "bar",
+      "param_template": "{freq}_W{w}N{n}Q{q}放量_决策区域V240608"
+    },
+    {
+      "category": "kline",
+      "name": "bar_decision_V240616",
+      "namespace": "bar",
+      "param_template": "{freq}_W{w}N{n}强弱_决策区域V240616"
+    },
+    {
+      "category": "kline",
+      "name": "bar_dual_thrust_V230403",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}通道突破#{N}#{K1}#{K2}_BS辅助V230403"
+    },
+    {
+      "category": "kline",
+      "name": "bar_eight_V230702",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}#8K_走势分类V230702"
+    },
+    {
+      "category": "kline",
+      "name": "bar_end_V221211",
+      "namespace": "bar",
+      "param_template": "{freq}_{freq1}结束_BS辅助221211"
+    },
+    {
+      "category": "kline",
+      "name": "bar_fake_break_V230204",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}N{n}M{m}_假突破V230204"
+    },
+    {
+      "category": "kline",
+      "name": "bar_fang_liang_break_V221216",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}TH{th}#{ma_type}#{timeperiod}_突破V221216"
+    },
+    {
+      "category": "kline",
+      "name": "bar_limit_down_V230525",
+      "namespace": "bar",
+      "param_template": "{freq}_跌停后无下影线长实体阳线_短线V230525"
+    },
+    {
+      "category": "kline",
+      "name": "bar_mean_amount_V221112",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}K{n}B均额_{th1}至{th2}千万V221112"
+    },
+    {
+      "category": "kline",
+      "name": "bar_operate_span_V221111",
+      "namespace": "bar",
+      "param_template": "{freq}_T{t1}#{t2}_时间区间V221111"
+    },
+    {
+      "category": "kline",
+      "name": "bar_plr_V240427",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{w}T{t}M{m}_盈亏比V240427"
+    },
+    {
+      "category": "kline",
+      "name": "bar_polyfit_V240428",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{w}_分类V240428"
+    },
+    {
+      "category": "kline",
+      "name": "bar_r_breaker_V230326",
+      "namespace": "bar",
+      "param_template": "{freq}_RBreaker_BS辅助V230326"
+    },
+    {
+      "category": "kline",
+      "name": "bar_reversal_V230227",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}A{avg_bp}_反转V230227"
+    },
+    {
+      "category": "kline",
+      "name": "bar_section_momentum_V221112",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}K{n}B_阈值{th}BPV221112"
+    },
+    {
+      "category": "kline",
+      "name": "bar_shuang_fei_V230507",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}双飞_短线V230507"
+    },
+    {
+      "category": "kline",
+      "name": "bar_single_V230214",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}T{t}_状态V230214"
+    },
+    {
+      "category": "kline",
+      "name": "bar_single_V230506",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}单K趋势N{n}_BS辅助V230506"
+    },
+    {
+      "category": "kline",
+      "name": "bar_td9_V240616",
+      "namespace": "bar",
+      "param_template": "{freq}_神奇九转N{n}_BS辅助V240616"
+    },
+    {
+      "category": "kline",
+      "name": "bar_time_V230327",
+      "namespace": "bar",
+      "param_template": "{freq}_日内时间_分段V230327"
+    },
+    {
+      "category": "kline",
+      "name": "bar_tnr_V230629",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}TNR{timeperiod}_趋势V230629"
+    },
+    {
+      "category": "kline",
+      "name": "bar_tnr_V230630",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}TNR{timeperiod}K{k}_趋势V230630"
+    },
+    {
+      "category": "kline",
+      "name": "bar_trend_V240209",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}N{N}趋势跟踪_BS辅助V240209"
+    },
+    {
+      "category": "kline",
+      "name": "bar_triple_V230506",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}三K加速_裸K形态V230506"
+    },
+    {
+      "category": "kline",
+      "name": "bar_vol_bs1_V230224",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}N{n}量价_BS1辅助V230224"
+    },
+    {
+      "category": "kline",
+      "name": "bar_vol_grow_V221112",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}K{n}B_放量V221112"
+    },
+    {
+      "category": "kline",
+      "name": "bar_volatility_V241013",
+      "namespace": "bar",
+      "param_template": "{freq}_波动率分层W{w}N{n}_完全分类V241013"
+    },
+    {
+      "category": "kline",
+      "name": "bar_weekday_V230328",
+      "namespace": "bar",
+      "param_template": "{freq}_周内时间_分段V230328"
+    },
+    {
+      "category": "kline",
+      "name": "bar_window_ps_V230731",
+      "namespace": "bar",
+      "param_template": "{freq}_W{w}M{m}N{n}L{l}_支撑压力位V230731"
+    },
+    {
+      "category": "kline",
+      "name": "bar_window_ps_V230801",
+      "namespace": "bar",
+      "param_template": "{freq}_N{n}W{w}_支撑压力位V230801"
+    },
+    {
+      "category": "kline",
+      "name": "bar_window_std_V230731",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{w}M{m}N{n}_窗口波动V230731"
+    },
+    {
+      "category": "kline",
+      "name": "bar_zdf_V221203",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}{mode}_{t1}至{t2}V221203"
+    },
+    {
+      "category": "kline",
+      "name": "bar_zdt_V230331",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}_涨跌停V230331"
+    },
+    {
+      "category": "kline",
+      "name": "bar_zfzd_V241013",
+      "namespace": "bar",
+      "param_template": "{freq}_窄幅震荡N{n}_形态V241013"
+    },
+    {
+      "category": "kline",
+      "name": "bar_zfzd_V241014",
+      "namespace": "bar",
+      "param_template": "{freq}_窄幅震荡N{n}_形态V241014"
+    },
+    {
+      "category": "kline",
+      "name": "bar_zt_count_V230504",
+      "namespace": "bar",
+      "param_template": "{freq}_D{di}W{window}涨停计数_裸K形态V230504"
+    },
+    {
+      "category": "kline",
+      "name": "bias_up_dw_line_V230618",
+      "namespace": "bias",
+      "param_template": "{freq}_D{di}N{n}M{m}P{p}TH1{th1}TH2{th2}TH3{th3}_BIAS乖离率V230618"
+    },
+    {
+      "category": "kline",
+      "name": "byi_bi_end_V230106",
+      "namespace": "byi",
+      "param_template": "{freq}_D0停顿分型_BE辅助V230106"
+    },
+    {
+      "category": "kline",
+      "name": "byi_bi_end_V230107",
+      "namespace": "byi",
+      "param_template": "{freq}_D0验证分型_BE辅助V230107"
+    },
+    {
+      "category": "kline",
+      "name": "byi_fx_num_V230628",
+      "namespace": "byi",
+      "param_template": "{freq}_D{di}笔分型数大于{num}_BE辅助V230628"
+    },
+    {
+      "category": "kline",
+      "name": "byi_second_bs_V230324",
+      "namespace": "byi",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}回抽零轴_BS2辅助V230324"
+    },
+    {
+      "category": "kline",
+      "name": "byi_symmetry_zs_V221107",
+      "namespace": "byi",
+      "param_template": "{freq}_D{di}B_对称中枢V221107"
+    },
+    {
+      "category": "trader",
+      "name": "cat_macd_V230518",
+      "namespace": "cat",
+      "param_template": "{freq1}#{freq2}_MACD交叉_联立V230518"
+    },
+    {
+      "category": "trader",
+      "name": "cat_macd_V230520",
+      "namespace": "cat",
+      "param_template": "{freq1}#{freq2}_MACD交叉_联立V230520"
+    },
+    {
+      "category": "kline",
+      "name": "cci_decision_V240620",
+      "namespace": "cci",
+      "param_template": "{freq}_N{n}CCI_决策区域V240620"
+    },
+    {
+      "category": "kline",
+      "name": "clv_up_dw_line_V230605",
+      "namespace": "clv",
+      "param_template": "{freq}_D{di}N{n}_CLV多空V230605"
+    },
+    {
+      "category": "kline",
+      "name": "cmo_up_dw_line_V230605",
+      "namespace": "cmo",
+      "param_template": "{freq}_D{di}N{n}M{m}_CMO能量V230605"
+    },
+    {
+      "category": "kline",
+      "name": "coo_cci_V230323",
+      "namespace": "coo",
+      "param_template": "{freq}_D{di}CCI{n}#{ma_type}#{m}_BS辅助V230323"
+    },
+    {
+      "category": "kline",
+      "name": "coo_kdj_V230322",
+      "namespace": "coo",
+      "param_template": "{freq}_D{di}KDJ{fastk_period}#{slowk_period}#{slowd_period}#{ma_type}#{n}_BS辅助V230322"
+    },
+    {
+      "category": "kline",
+      "name": "coo_sar_V230325",
+      "namespace": "coo",
+      "param_template": "{freq}_D{di}N{n}SAR_BS辅助V230325"
+    },
+    {
+      "category": "kline",
+      "name": "coo_td_V221110",
+      "namespace": "coo",
+      "param_template": "{freq}_D{di}K_TDV221110"
+    },
+    {
+      "category": "kline",
+      "name": "coo_td_V221111",
+      "namespace": "coo",
+      "param_template": "{freq}_D{di}TD_BS辅助V221111"
+    },
+    {
+      "category": "kline",
+      "name": "cvolp_up_dw_line_V230612",
+      "namespace": "cvolp",
+      "param_template": "{freq}_D{di}N{n}M{m}UP{up}DW{dw}_CVOLP动量变化率V230612"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_base_V230228",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0BL{bi_init_length}_V230228"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230104",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0{ma_type}#{timeperiod}T{th}_BE辅助V230104"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230105",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0{ma_type}#{timeperiod}T{th}_BE辅助V230105"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230222",
+      "namespace": "cxt",
+      "param_template": "{freq}_D1MO{max_overlap}_BE辅助V230222"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230224",
+      "namespace": "cxt",
+      "param_template": "{freq}_D1_BE辅助V230224"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230312",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0MACD{fastperiod}#{slowperiod}#{signalperiod}_BE辅助V230312"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230320",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0质数窗口MO{max_overlap}_BE辅助V230320"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230322",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0分型配合{ma_type}#{timeperiod}_BE辅助V230322"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230324",
+      "namespace": "cxt",
+      "param_template": "{freq}_D0{ma_type}#{timeperiod}均线突破_BE辅助V230324"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230618",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}MO{max_overlap}_BE辅助V230618"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_end_V230815",
+      "namespace": "cxt",
+      "param_template": "{freq}_快速突破_BE辅助V230815"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_status_V230101",
+      "namespace": "cxt",
+      "param_template": "{freq}_D1_表里关系V230101"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_status_V230102",
+      "namespace": "cxt",
+      "param_template": "{freq}_D1_表里关系V230102"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_stop_V230815",
+      "namespace": "cxt",
+      "param_template": "{freq}_距离{th}BP_止损V230815"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_trend_V230824",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}N{n}TH{th}_形态V230824"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_trend_V230913",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}N{n}笔趋势_高低点辅助判断V230913"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bi_zdf_V230601",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}N{n}_分层V230601"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bs_V240526",
+      "namespace": "cxt",
+      "param_template": "{freq}_趋势跟随_BS辅助V240526"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_bs_V240527",
+      "namespace": "cxt",
+      "param_template": "{freq}_趋势跟随_BS辅助V240527"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_decision_V240526",
+      "namespace": "cxt",
+      "param_template": "{freq}_分型区域N{n}_决策区域V240526"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_decision_V240612",
+      "namespace": "cxt",
+      "param_template": "{freq}_W{w}N{n}高低点_决策区域V240612"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_decision_V240613",
+      "namespace": "cxt",
+      "param_template": "{freq}_放量笔N{n}BS2_决策区域V240613"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_decision_V240614",
+      "namespace": "cxt",
+      "param_template": "{freq}_放量笔N{n}_决策区域V240614"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_double_zs_V230311",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}双中枢_BS1辅助V230311"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_eleven_bi_V230622",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}十一笔_形态V230622"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_first_buy_V221126",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}B_BUY1V221126"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_first_sell_V221126",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}B_SELL1V221126"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_five_bi_V230619",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}五笔_形态V230619"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_fx_power_V221107",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}F_分型强弱V221107"
+    },
+    {
+      "category": "trader",
+      "name": "cxt_intraday_V230701",
+      "namespace": "cxt",
+      "param_template": "{freq1}#{freq2}_D{di}日_走势分类V230701"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_nine_bi_V230621",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}九笔_形态V230621"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_overlap_V240526",
+      "namespace": "cxt",
+      "param_template": "{freq}_顶底重合_支撑压力V240526"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_overlap_V240612",
+      "namespace": "cxt",
+      "param_template": "{freq}_SNR顺畅N{n}_支撑压力V240612"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_range_oscillation_V230620",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}TH{th}_区间震荡V230620"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_second_bs_V230320",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}#{ma_type}#{timeperiod}_BS2辅助V230320"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_second_bs_V240524",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}W{w}T{t}_第二买卖点V240524"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_seven_bi_V230620",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}七笔_形态V230620"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_third_bs_V230318",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}#{ma_type}#{timeperiod}_BS3辅助V230318"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_third_bs_V230319",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}#{ma_type}#{timeperiod}_BS3辅助V230319"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_third_buy_V230228",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}_三买辅助V230228"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_three_bi_V230618",
+      "namespace": "cxt",
+      "param_template": "{freq}_D{di}三笔_形态V230618"
+    },
+    {
+      "category": "kline",
+      "name": "cxt_ubi_end_V230816",
+      "namespace": "cxt",
+      "param_template": "{freq}_UBI_BE辅助V230816"
+    },
+    {
+      "category": "trader",
+      "name": "cxt_zhong_shu_gong_zhen_V221221",
+      "namespace": "cxt",
+      "param_template": "{freq1}_{freq2}_中枢共振V221221"
+    },
+    {
+      "category": "kline",
+      "name": "dema_up_dw_line_V230605",
+      "namespace": "dema",
+      "param_template": "{freq}_D{di}N{n}_DEMA短线趋势V230605"
+    },
+    {
+      "category": "kline",
+      "name": "demakder_up_dw_line_V230605",
+      "namespace": "demakder",
+      "param_template": "{freq}_D{di}N{n}TH{th}TL{tl}_DEMAKER价格趋势V230605"
+    },
+    {
+      "category": "kline",
+      "name": "emv_up_dw_line_V230605",
+      "namespace": "emv",
+      "param_template": "{freq}_D{di}_EMV简易波动V230605"
+    },
+    {
+      "category": "kline",
+      "name": "er_up_dw_line_V230604",
+      "namespace": "er",
+      "param_template": "{freq}_D{di}W{w}N{n}_ER价格动量V230604"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_ci_tou_V221101",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}Z{z}TH{th}_刺透形态V221101"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_fan_ji_xian_V221121",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}_反击线V221121"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_fen_shou_xian_V20221113",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}K_分手线V20221113"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_gap_yin_yang_V221121",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}K_并列阴阳V221121"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_ping_tou_V221113",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}TH{th}_平头形态V221113"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_san_fa_V20221115",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}K_三法V20221115"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_san_fa_V20221118",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}K_三法AV20221118"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_san_szx_V221122",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}T{th}_三星V221122"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_san_xing_xian_V221023",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}TH{th}_伞形线V221023"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_shan_chun_V221121",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}B_山川形态V221121"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_szx_V221111",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}TH{th}_十字线V221111"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_ta_xing_V221124",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}K_塔形V221124"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_ten_mo_V221028",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}_吞没形态V221028"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_three_crow_V221108",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}_三只乌鸦V221108"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_two_crow_V221108",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}K_两只乌鸦V221108"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_wu_yun_gai_ding_V221101",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}Z{z}TH{th}_乌云盖顶V221101"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_xing_xian_V221118",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}TH{th}_星形线V221118"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_yun_xian_V221118",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}_孕线V221118"
+    },
+    {
+      "category": "kline",
+      "name": "jcc_zhu_huo_xian_V221027",
+      "namespace": "jcc",
+      "param_template": "{freq}_D{di}T{th}F{zf}_烛火线V221027"
+    },
+    {
+      "category": "kline",
+      "name": "kcatr_up_dw_line_V230823",
+      "namespace": "kcatr",
+      "param_template": "{freq}_D{di}N{n}M{m}T{th}_KCATR多空V230823"
+    },
+    {
+      "category": "kline",
+      "name": "ntmdk_V230824",
+      "namespace": "ntmdk",
+      "param_template": "{freq}_D{di}M{m}_NTMDK多空V230824"
+    },
+    {
+      "category": "kline",
+      "name": "obv_up_dw_line_V230719",
+      "namespace": "obv",
+      "param_template": "{freq}_D{di}N{n}M{m}MO{max_overlap}_OBV能量V230719"
+    },
+    {
+      "category": "kline",
+      "name": "obvm_line_V230610",
+      "namespace": "obvm",
+      "param_template": "{freq}_D{di}N{n}M{m}_OBV能量V230610"
+    },
+    {
+      "category": "trader",
+      "name": "pos_bar_stop_V230524",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}N{n}K_止损V230524"
+    },
+    {
+      "category": "trader",
+      "name": "pos_fix_exit_V230624",
+      "namespace": "pos",
+      "param_template": "{pos_name}_固定{th}BP止盈止损_出场V230624"
+    },
+    {
+      "category": "trader",
+      "name": "pos_fx_stop_V230414",
+      "namespace": "pos",
+      "param_template": "{freq1}_{pos_name}N{n}_止损V230414"
+    },
+    {
+      "category": "trader",
+      "name": "pos_holds_V230414",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}N{n}M{m}_趋势判断V230414"
+    },
+    {
+      "category": "trader",
+      "name": "pos_holds_V230807",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}N{n}M{m}T{t}_BS辅助V230807"
+    },
+    {
+      "category": "trader",
+      "name": "pos_holds_V240428",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}H{h}T{t}N{n}_保本V240428"
+    },
+    {
+      "category": "trader",
+      "name": "pos_holds_V240608",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}W{w}N{n}_保本V240608"
+    },
+    {
+      "category": "trader",
+      "name": "pos_ma_V230414",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}#{ma_type}#{timeperiod}_持有状态V230414"
+    },
+    {
+      "category": "trader",
+      "name": "pos_profit_loss_V230624",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}YKB{ykb}N{n}_盈亏比判断V230624"
+    },
+    {
+      "category": "trader",
+      "name": "pos_status_V230808",
+      "namespace": "pos",
+      "param_template": "{pos_name}_持仓状态_BS辅助V230808"
+    },
+    {
+      "category": "trader",
+      "name": "pos_stop_V240331",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}#{n}_止损V240331"
+    },
+    {
+      "category": "trader",
+      "name": "pos_stop_V240428",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}T{t}N{n}_止损V240428"
+    },
+    {
+      "category": "trader",
+      "name": "pos_stop_V240608",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}W{w}N{n}_止损V240608"
+    },
+    {
+      "category": "trader",
+      "name": "pos_stop_V240614",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}N{n}_止损V240614"
+    },
+    {
+      "category": "trader",
+      "name": "pos_stop_V240717",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}N{n}T{timeperiod}_止损V240717"
+    },
+    {
+      "category": "trader",
+      "name": "pos_take_V240428",
+      "namespace": "pos",
+      "param_template": "{pos_name}_{freq1}T{t}N{n}_止盈V240428"
+    },
+    {
+      "category": "kline",
+      "name": "pressure_support_V240222",
+      "namespace": "pressure",
+      "param_template": "{freq}_D{di}W{w}高低点验证_支撑压力V240222"
+    },
+    {
+      "category": "kline",
+      "name": "pressure_support_V240402",
+      "namespace": "pressure",
+      "param_template": "{freq}_D{di}W{w}_支撑压力V240402"
+    },
+    {
+      "category": "kline",
+      "name": "pressure_support_V240406",
+      "namespace": "pressure",
+      "param_template": "{freq}_D{di}W{w}_支撑压力V240406"
+    },
+    {
+      "category": "kline",
+      "name": "pressure_support_V240530",
+      "namespace": "pressure",
+      "param_template": "{freq}_D{di}W{w}N{n}_支撑压力V240530"
+    },
+    {
+      "category": "kline",
+      "name": "skdj_up_dw_line_V230611",
+      "namespace": "skdj",
+      "param_template": "{freq}_D{di}N{n}M{m}UP{up}DW{dw}_SKDJ随机波动V230611"
+    },
+    {
+      "category": "kline",
+      "name": "tas_accelerate_V230531",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}T{t}_BOLL加速V230531"
+    },
+    {
+      "category": "kline",
+      "name": "tas_angle_V230802",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}T{th}_笔角度V230802"
+    },
+    {
+      "category": "kline",
+      "name": "tas_atr_V230630",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}ATR{timeperiod}_波动V230630"
+    },
+    {
+      "category": "kline",
+      "name": "tas_atr_break_V230424",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}ATR{timeperiod}T{th}突破_BS辅助V230424"
+    },
+    {
+      "category": "kline",
+      "name": "tas_boll_bc_V221118",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}M{m}L{line}#BOLL{timeperiod}_背驰V221118"
+    },
+    {
+      "category": "kline",
+      "name": "tas_boll_cc_V230312",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}BOLL{timeperiod}S{nbdev}SP{sp}_BS辅助V230312"
+    },
+    {
+      "category": "kline",
+      "name": "tas_boll_power_V221112",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}BOLL{timeperiod}_强弱V221112"
+    },
+    {
+      "category": "kline",
+      "name": "tas_boll_vt_V230212",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}BOLL{timeperiod}S{nbdev}MO{max_overlap}_BS辅助V230212"
+    },
+    {
+      "category": "kline",
+      "name": "tas_cci_base_V230402",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}CCI{timeperiod}#{min_count}#{max_count}_BS辅助V230402"
+    },
+    {
+      "category": "kline",
+      "name": "tas_cross_status_V230619",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_金死叉V230619"
+    },
+    {
+      "category": "kline",
+      "name": "tas_cross_status_V230624",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}MD{md}_MACD交叉数量V230624"
+    },
+    {
+      "category": "kline",
+      "name": "tas_cross_status_V230625",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}MD{md}J{j}S{s}_MACD交叉数量V230625"
+    },
+    {
+      "category": "kline",
+      "name": "tas_dif_layer_V241010",
+      "namespace": "tas",
+      "param_template": "{freq}_DIF分层W{w}T{t}_完全分类V241010"
+    },
+    {
+      "category": "kline",
+      "name": "tas_dif_zero_V240612",
+      "namespace": "tas",
+      "param_template": "{freq}_DIF靠近零轴T{t}_BS辅助V240612"
+    },
+    {
+      "category": "kline",
+      "name": "tas_dif_zero_V240614",
+      "namespace": "tas",
+      "param_template": "{freq}_DIF靠近零轴W{w}T{t}_BS辅助V240614"
+    },
+    {
+      "category": "kline",
+      "name": "tas_dma_bs_V240608",
+      "namespace": "tas",
+      "param_template": "{freq}_N{n}双均线{t1}#{t2}顺势_BS辅助V240608"
+    },
+    {
+      "category": "kline",
+      "name": "tas_double_ma_V221203",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}T{th}#{ma_type}#{timeperiod1}#{timeperiod2}_JX辅助V221203"
+    },
+    {
+      "category": "kline",
+      "name": "tas_double_ma_V230511",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}#{ma_type}#{t1}#{t2}_BS辅助V230511"
+    },
+    {
+      "category": "kline",
+      "name": "tas_double_ma_V240208",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{N}M{M}双均线_BS辅助V240208"
+    },
+    {
+      "category": "kline",
+      "name": "tas_first_bs_V230217",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}#{ma_type}#{timeperiod}_BS1辅助V230217"
+    },
+    {
+      "category": "kline",
+      "name": "tas_hlma_V230301",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}#{ma_type}#{timeperiod}HLMA_BS辅助V230301"
+    },
+    {
+      "category": "kline",
+      "name": "tas_kdj_base_V221101",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}K#KDJ{fastk_period}#{slowk_period}#{slowd_period}_KDJ辅助V221101"
+    },
+    {
+      "category": "kline",
+      "name": "tas_kdj_evc_V221201",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}T{th}KDJ{fastk_period}#{slowk_period}#{slowd_period}#{key}值突破{c1}#{c2}_KDJ极值V221201"
+    },
+    {
+      "category": "kline",
+      "name": "tas_kdj_evc_V230401",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}T{th}KDJ{fastk_period}#{slowk_period}#{slowd_period}#{key}值突破{min_count}#{max_count}_BS辅助V230401"
+    },
+    {
+      "category": "kline",
+      "name": "tas_low_trend_V230627",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}TH{th}_趋势230627"
+    },
+    {
+      "category": "kline",
+      "name": "tas_ma_base_V221101",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}{ma_type}#{timeperiod}_分类V221101"
+    },
+    {
+      "category": "kline",
+      "name": "tas_ma_base_V221203",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}{ma_type}#{timeperiod}T{th}_分类V221203"
+    },
+    {
+      "category": "kline",
+      "name": "tas_ma_base_V230313",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}#{ma_type}#{timeperiod}MO{max_overlap}_BS辅助V230313"
+    },
+    {
+      "category": "kline",
+      "name": "tas_ma_cohere_V230512",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}SMA{ma_seq}_均线系统V230512"
+    },
+    {
+      "category": "kline",
+      "name": "tas_ma_round_V221206",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}TH{th}#碰{ma_type}#{timeperiod}_BE辅助V221206"
+    },
+    {
+      "category": "kline",
+      "name": "tas_ma_system_V230513",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}SMA{ma_seq}_均线系统V230513"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_base_V221028",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_BS辅助V221028"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_base_V230320",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}MO{max_overlap}#{key}_BS辅助V230320"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bc_V221201",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}M{m}#MACD{fastperiod}#{slowperiod}#{signalperiod}_BCV221201"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bc_V230803",
+      "namespace": "tas",
+      "param_template": "{freq}_MACD双分型背驰_BS辅助V230803"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bc_V230804",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD背驰_BS辅助V230804"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bc_V240307",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}柱子背驰_BS辅助V240307"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bc_ubi_V230804",
+      "namespace": "tas",
+      "param_template": "{freq}_MACD背驰_UBI观察V230804"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bs1_V230312",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_BS1辅助V230312"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bs1_V230313",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_BS1辅助V230313"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bs1_V230411",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}T{tha}#{thb}#{thc}_BS1辅助V230411"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_bs1_V230412",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}T{tha}#{thb}_BS1辅助V230412"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_change_V221105",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}K{n}#MACD{fastperiod}#{slowperiod}#{signalperiod}变色次数_BS辅助V221105"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_direct_V221106",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}K#MACD{fastperiod}#{slowperiod}#{signalperiod}方向_BS辅助V221106"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_dist_V230408",
+      "namespace": "tas",
+      "param_template": "{freq}_{key}分层W{w}N{n}_BS辅助V230408"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_dist_V230409",
+      "namespace": "tas",
+      "param_template": "{freq}_{key}远离W{w}N{n}T{t}_BS辅助V230409"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_dist_V230410",
+      "namespace": "tas",
+      "param_template": "{freq}_{key}多空分层W{w}N{n}_BS辅助V230410"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_first_bs_V221201",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_BS1辅助V221201"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_first_bs_V221216",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_BS1辅助V221216"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_power_V221108",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}K#MACD{fastperiod}#{slowperiod}#{signalperiod}强弱_BS辅助V221108"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_second_bs_V221201",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MACD{fastperiod}#{slowperiod}#{signalperiod}_BS2辅助V221201"
+    },
+    {
+      "category": "kline",
+      "name": "tas_macd_xt_V221208",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}K#MACD{fastperiod}#{slowperiod}#{signalperiod}形态_BS辅助V221208"
+    },
+    {
+      "category": "kline",
+      "name": "tas_rsi_base_V230227",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}T{th}RSI{timeperiod}_RSI辅助V230227"
+    },
+    {
+      "category": "kline",
+      "name": "tas_rumi_V230704",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}F{timeperiod1}S{timeperiod2}R{rumi_window}_BS辅助V230704"
+    },
+    {
+      "category": "kline",
+      "name": "tas_sar_base_V230425",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}MO{max_overlap}SAR_BS辅助V230425"
+    },
+    {
+      "category": "kline",
+      "name": "tas_second_bs_V230228",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}N{n}#{ma_type}#{timeperiod}_BS2辅助V230228"
+    },
+    {
+      "category": "kline",
+      "name": "tas_second_bs_V230303",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}{ma_type}#{timeperiod}_BS2辅助V230303"
+    },
+    {
+      "category": "kline",
+      "name": "tas_slope_V231019",
+      "namespace": "tas",
+      "param_template": "{freq}_D{di}DIF{n}斜率T{th}_BS辅助V231019"
+    },
+    {
+      "category": "kline",
+      "name": "vol_double_ma_V230214",
+      "namespace": "vol",
+      "param_template": "{freq}_D{di}VOL双均线{ma_type}#{t1}#{t2}_BS辅助V230214"
+    },
+    {
+      "category": "kline",
+      "name": "vol_gao_di_V221218",
+      "namespace": "vol",
+      "param_template": "{freq}_D{di}K_量柱V221218"
+    },
+    {
+      "category": "kline",
+      "name": "vol_single_ma_V230214",
+      "namespace": "vol",
+      "param_template": "{freq}_D{di}VOL#{ma_type}#{timeperiod}_分类V230214"
+    },
+    {
+      "category": "kline",
+      "name": "vol_ti_suo_V221216",
+      "namespace": "vol",
+      "param_template": "{freq}_D{di}K_量柱V221216"
+    },
+    {
+      "category": "kline",
+      "name": "vol_window_V230731",
+      "namespace": "vol",
+      "param_template": "{freq}_D{di}W{w}M{m}N{n}_窗口能量V230731"
+    },
+    {
+      "category": "kline",
+      "name": "vol_window_V230801",
+      "namespace": "vol",
+      "param_template": "{freq}_D{di}W{w}_窗口能量V230801"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_basis_V240411",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}_形态V240411"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_basis_V240412",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}#TH{th}_形态V240412"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_position_V240328",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}_BS辅助V240328"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_trend_V240329",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}M{m}_十字线反转V240329"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_trend_V240330",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}M{m}#{ma_type}_双均线过滤V240330"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_trend_V240331",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}_突破信号V240331"
+    },
+    {
+      "category": "kline",
+      "name": "xl_bar_trend_V240623",
+      "namespace": "xl",
+      "param_template": "{freq}_N{n}通道_突破信号V240623"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_bi_end_V230406",
+      "namespace": "zdy",
+      "param_template": "{freq}_D0停顿分型_BE辅助V230406"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_bi_end_V230407",
+      "namespace": "zdy",
+      "param_template": "{freq}_D0停顿分型_BE辅助V230407"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_dif_V230527",
+      "namespace": "zdy",
+      "param_template": "{freq}_N{n}T{t}_DIF远离V230527"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_dif_V230528",
+      "namespace": "zdy",
+      "param_template": "{freq}_N{n}T{t}_DIF远离V230528"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_V230518",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}MACD交叉N{n}_BS辅助V230518"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_V230519",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}N{n}MACD缩柱_BS辅助V230519"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_V230527",
+      "namespace": "zdy",
+      "param_template": "{freq}_{key}远离W{w}N{n}T{t}_BS辅助V230527"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_bc_V230422",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}T{th}MACD面积背驰_BS辅助V230422"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_bs1_V230422",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}T{th}MACD_BS1辅助V230422"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_dif_V230516",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}DIF走平_BS辅助V230516"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_dif_V230517",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}MACD开仓_BS辅助V230517"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_macd_dif_iqr_V230521",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}DIF走平IQR_BS辅助V230521"
+    },
+    {
+      "category": "trader",
+      "name": "zdy_stop_loss_V230406",
+      "namespace": "zdy",
+      "param_template": "{freq1}_{pos_name}F{first_stop}_止损V230406"
+    },
+    {
+      "category": "trader",
+      "name": "zdy_take_profit_V230406",
+      "namespace": "zdy",
+      "param_template": "{freq1}_{pos_name}_止盈V230406"
+    },
+    {
+      "category": "trader",
+      "name": "zdy_take_profit_V230407",
+      "namespace": "zdy",
+      "param_template": "{freq1}_{pos_name}_止盈V230407"
+    },
+    {
+      "category": "trader",
+      "name": "zdy_vibrate_V230406",
+      "namespace": "zdy",
+      "param_template": "中枢震荡_{freq1}#{freq2}_BS辅助V230406"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_zs_V230423",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}中枢形态_BS辅助V230423"
+    },
+    {
+      "category": "kline",
+      "name": "zdy_zs_space_V230421",
+      "namespace": "zdy",
+      "param_template": "{freq}_D{di}中枢空间_BS辅助V230421"
+    }
+  ]
+}

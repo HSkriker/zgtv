@@ -1,0 +1,74 @@
+{
+ "note": "project 轮参数 = signals_official.SPECS[*].param_dict",
+ "project": {
+  "cxt_bi_trend_V230824": {
+   "di": 1,
+   "n": 4,
+   "th": 2
+  },
+  "cxt_double_zs_V230311": {
+   "di": 1
+  },
+  "cxt_first_buy_V221126": {
+   "di": 1
+  },
+  "cxt_first_sell_V221126": {
+   "di": 1
+  },
+  "cxt_range_oscillation_V230620": {
+   "di": 1,
+   "th": 2
+  },
+  "cxt_second_bs_V230320": {
+   "di": 1,
+   "ma_type": "SMA",
+   "timeperiod": 21
+  },
+  "cxt_second_bs_V240524": {
+   "di": 1,
+   "t": 2,
+   "w": 9
+  },
+  "cxt_third_bs_V230318": {
+   "di": 1,
+   "ma_type": "SMA",
+   "timeperiod": 34
+  },
+  "cxt_third_bs_V230319": {
+   "di": 1,
+   "ma_type": "SMA",
+   "timeperiod": 34
+  },
+  "cxt_third_buy_V230228": {
+   "di": 1
+  },
+  "tas_boll_bc_V221118": {
+   "di": 1,
+   "line": 3,
+   "m": 10,
+   "n": 3,
+   "timeperiod": 20
+  },
+  "tas_macd_bc_V221201": {
+   "di": 1,
+   "fastperiod": 12,
+   "m": 50,
+   "n": 3,
+   "signalperiod": 9,
+   "slowperiod": 26
+  },
+  "tas_macd_bc_V230803": {},
+  "tas_macd_bc_V230804": {
+   "di": 1
+  },
+  "tas_macd_bc_V240307": {
+   "di": 1,
+   "n": 20
+  },
+  "tas_macd_bc_ubi_V230804": {},
+  "zdy_macd_bc_V230422": {
+   "di": 1,
+   "th": 50
+  }
+ }
+}

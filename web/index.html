@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tv · 看图终端</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<div id="layout">
+  <header id="topbar">
+    <div class="brand">tv</div>
+    <div class="search">
+      <input id="symbol-input" autocomplete="off" spellcheck="false"
+             placeholder="代码 / 名称 / 拼音">
+      <div id="search-drop" class="drop hidden"></div>
+    </div>
+    <div id="periods" class="periods">
+      <button data-period="day" class="on">日</button>
+      <button data-period="week">周</button>
+      <button data-period="month">月</button>
+      <button data-period="quarter">季</button>
+      <button data-period="year">年</button>
+      <span class="psep" aria-hidden="true"></span>
+      <button data-period="1">1分</button>
+      <button data-period="5">5分</button>
+      <button data-period="15">15分</button>
+      <button data-period="30">30分</button>
+      <button data-period="60">60分</button>
+    </div>
+    <div id="chart-tools">
+      <button id="scale-mode" title="价格坐标：普通 / 对数 / 百分比">普通</button>
+      <button id="magnet" title="十字光标磁吸到 OHLC">磁吸</button>
+      <button id="vp-toggle" title="成交量分布（Volume Profile）：价格分桶成交量、POC / VA70、A股涨跌停价区">VP</button>
+      <button id="chan-toggle" title="显示 / 隐藏缠论图层（笔、中枢、买卖点）">缠</button>
+      <button id="candle-toggle" title="蜡烛形态（TA-Lib 61 个 CDL，默认全量；面板可切 zg 精选 rec27）">形</button>
+      <button id="pa2-toggle" title="PA2 · SMC 结构：摆动点、BOS/CHoCH、Fair Value Gap、订单块、流动性池">SMC</button>
+      <button data-ind="ma" title="均线 MA 5/10/20/40/60/120/250（主图叠加）">MA</button>
+      <button data-ind="ema" title="指数移动平均 EMA 13/21/70/84（主图叠加）">EMA</button>
+      <button data-ind="boll" title="布林带 20/2（主图叠加，带内填色）">BOLL</button>
+      <button data-ind="macd" title="MACD 12/26/9（副图）">MACD</button>
+    </div>
+    <span id="live-badge" class="live-badge hidden" title="实时行情 / 数据截至"></span>
+    <label class="switch"><input type="checkbox" id="color-mode"> 绿涨红跌</label>
+    <button id="watch-toggle" class="ghost" title="加入 / 移出自选">☆</button>
+    <button id="refresh" class="ghost">刷新</button>
+  </header>
+  <main id="main">
+    <section id="chart-wrap"><div id="chart"></div>
+      <div id="legend-ind" class="legend-ind"></div>
+      <div id="legend" class="legend">
+        <div id="legend-main"></div>
+        <div id="legend-tags" class="legend-tags"></div>
+        <div id="legend-range" class="legend-range"></div>
+      </div>
+    </section>
+    <div id="side-resizer" title="拖动调整宽度，双击复位"></div>
+    <aside id="side">
+      <div id="side-head">面板</div>
+      <div id="side-body"></div>
+    </aside>
+  </main>
+</div>
+
+<!-- 加载顺序契约：vendor → 工具（time/api/ui）→ chart + primitives → 功能模块（其消费的
+     primitive 必须先加载）→ panels → panels/overview（依赖 TV.panels.market）→ context-menu
+     → main（DOMContentLoaded 才 boot）。
+     各文件均为 IIFE + window.TV 命名空间，定义期不互相调用；在文件顶部新增跨模块调用前先核对顺序。 -->
+<script src="/vendor/lightweight-charts.standalone.production.js"></script>
+<script src="/js/time.js"></script>
+<script src="/js/ui.js"></script>
+<script src="/js/api.js"></script>
+<script src="/js/chart.js"></script>
+<script src="/js/draw-primitive.js"></script>
+<script src="/js/drawings.js"></script>
+<script src="/js/chan-primitive.js"></script>
+<script src="/js/chan.js"></script>
+<script src="/js/candles.js"></script>
+<script src="/js/pa2-primitive.js"></script>
+<script src="/js/pa2.js"></script>
+<script src="/js/alerts-primitive.js"></script>
+<script src="/js/volume-profile.js"></script>
+<script src="/js/band-primitive.js"></script>
+<script src="/js/ind.js"></script>
+<script src="/js/panels.js?v=20261107a"></script>
+<script src="/js/panels/overview.js?v=20261107a"></script>
+<script src="/js/context-menu.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
